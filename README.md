@@ -41,22 +41,22 @@ Each prompt is evaluated on the following dimensions:
 
 ## 🔧 Project Structure
 
-PromptScore/
+**PromptScore/
 ├── backend/ # Spring Boot project (API, DB, business logic)
 ├── frontend/ # React UI
-└── llm-service/ # FastAPI microservice for LLM integration
+└── llm-service/ # FastAPI microservice for LLM integration **
 
 
 ## Run the Backend
-cd backend
-./mvnw spring-boot:run
+**cd backend**
+**./mvnw spring-boot:run**
 
 ## Run the Fronend
-cd frontend
-npm install
-npm start
+**cd frontend**
+**npm install**
+**npm start**
 
 # Run the LLM Microservices(Python + FastAPI)
-cd llm-service
-pip install -r requirements.txt
-uvicorn app:app --reload
+**cd llm-service**
+**pip install -r requirements.txt**
+**uvicorn app:app --reload**
